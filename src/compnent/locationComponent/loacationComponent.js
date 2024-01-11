@@ -61,7 +61,7 @@ export const LocationComponent = () => {
         </div>
       )}
       <h2>Weather details</h2>
-      {apiResponse !== undefined ? (
+      {apiResponse !== undefined && apiResponse !== null ? (
         <div>
           <h5>Max rainfall :{apiResponse.maxRainfall} mm</h5>
           <h5>Max temperature :{apiResponse.maxTemperature} C</h5>
