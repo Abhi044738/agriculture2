@@ -1,4 +1,4 @@
-export const bootData = [
+export const botData = [
   {
     id: 1,
     name: "Summer Crops",
@@ -28,7 +28,6 @@ export const bootData = [
         answer:
           "They require temperatures between 24°C to 32°C (75°F to 90°F) . Drip irrigation or soaker hoses are common irrigation methods. he soil should have good water retention properties.",
       },
-      ,
     ],
   },
   {
@@ -93,38 +92,7 @@ export const bootData = [
       },
     ],
   },
-  // {
-  //   id: 4,
-  //   name: "Zaid Crops (Short Summer Season)",
-  //   data: [
-  //     { name: "Cucumber", data: "" },
-  //     { name: "Watermelon", data: "" },
-  //     { name: "Muskmelon", data: "" },
-  //     { name: "Pumpkins", data: "" },
-  //   ],
-  // },
-  // {
-  //   id: 5,
-  //   name: "Perennial Crops",
-  //   data: [
-  //     { name: "Banana", data: "" },
-  //     { name: "Coconut", data: "" },
-  //     { name: "Mango", data: "" },
-  //     { name: "Papaya", data: "" },
-  //     { name: "Guava", data: "" },
-  //   ],
-  // },
-  // {
-  //   id: 6,
-  //   name: "Hill and Mountain Crops:",
-  //   data: [
-  //     { name: "Apples", data: "" },
-  //     { name: "Pears", data: "" },
-  //     { name: "Apricots", data: "" },
-  //     { name: "Potatoes", data: "" },
-  //     { name: "Cabbage", data: "" },
-  //   ],
-  // },
+
   {
     id: 4,
     name: "FAQS",

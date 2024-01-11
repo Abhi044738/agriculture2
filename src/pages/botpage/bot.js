@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { bootData } from "../../Assets/Data/botData";
+import { botData } from "../../Assets/Data/botData";
 import "./style.css";
 
 export const FAQS = () => {
-  const [data, setData] = useState(bootData);
+  const [data, setData] = useState(botData);
   const [answer, setAnswer] = useState(null);
   function handleClick(id) {
     const newData = data.find((item) => item.id === id).data;
-    if (newData != undefined) {
+    if (newData !== undefined) {
       setData(newData);
     }
     console.log(newData);
@@ -27,7 +27,7 @@ export const FAQS = () => {
             onClick={() => handleClick(item.id)}
           >
             <h5 style={{ margin: "auto" }}>{item.name}</h5>
-            {item.answer != undefined ? (
+            {item.answer !== undefined ? (
               <button
                 type="button"
                 class="btn btn-outline-success"
@@ -43,7 +43,7 @@ export const FAQS = () => {
         type="button"
         class="btn btn-outline-primary"
         onClick={() => {
-          setData(bootData);
+          setData(botData);
           setAnswer(null);
         }}
       >

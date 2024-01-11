@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { Navigation } from "./compnent/Header/header";
 import { Footer } from "./compnent/footer/footer";
 import { Home } from "./pages/Home/home";
-import { FAQS } from "./pages/bootpage/boot";
+import { FAQS } from "./pages/botpage/bot";
 import { Recomendation } from "./pages/recomendation/recomendPage";
 
 function App() {
