@@ -1,0 +1,21 @@
+.box {
+  min-height: 25rem;
+}
+@media only screen and (max-width: 990px) {
+  .box {
+    min-height: auto;
+  }
+}
+@media only screen and (min-width: 1190px) {
+  .box {
+    max-width: 22rem;
+    min-height: 20rem;
+  }
+}
+.off-section {
+  margin: 2rem;
+}
+.give-margin {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,11 @@
+.list-item {
+  padding: 1rem;
+  border-radius: 3rem;
+  margin: 1rem;
+  border: solid 2px;
+}
+.list {
+  display: inline-block;
+  border: solid;
+  padding: 2rem;
+}

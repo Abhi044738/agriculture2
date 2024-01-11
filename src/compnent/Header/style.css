@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #ffffff;
+  --backGround-color: #daded4;
+  --tertiary-color: #39603d;
+  --fourth-color: #a3bcb6;
+  --fifth-color: #3c403d;
+}
+.nav-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 30px;
+}
+nav {
+  background-color: var(--primary-color);
+  opacity: 0.6 !important;
+  margin-top: 1rem;
+}
