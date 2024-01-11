@@ -4,16 +4,20 @@ export const Footer = () => {
     <div class="footer-basic">
       <footer>
         <div class="social">
-          <a href="/">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
             <i class="icon ion-social-instagram"></i>
           </a>
-          <a href="/">
+          <a href="https://www.snapchat.com/" target="_blank" rel="noreferrer">
             <i class="icon ion-social-snapchat"></i>
           </a>
-          <a href="/">
+          <a
+            href="https://twitter.com/home?lang=en"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="icon ion-social-twitter"></i>
           </a>
-          <a href="/">
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
             <i class="icon ion-social-facebook"></i>
           </a>
         </div>
