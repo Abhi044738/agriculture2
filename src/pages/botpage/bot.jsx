@@ -26,7 +26,7 @@ export const FAQS = () => {
             // key={item.id}
             onClick={() => handleClick(item.id)}
           >
-            <h5 style={{ margin: "auto" }}>{item.name}</h5>
+            <h5>{item.name}</h5>
             {item.answer !== undefined ? (
               <button
                 type="button"
@@ -49,7 +49,14 @@ export const FAQS = () => {
       >
         To main
       </button>
+
       <section>
+        <p>
+          For query not solve contact at{" "}
+          <a href="https://mail.google.com/" target="_blank" rel="noreferrer">
+            krishikalyan@gmail.com
+          </a>
+        </p>
         <p1>{answer}</p1>
       </section>
     </div>

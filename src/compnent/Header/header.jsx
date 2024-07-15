@@ -3,15 +3,6 @@ import "./style.css";
 export const Navigation = () => {
   return (
     <div>
-      {/* <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <h1 className="navbar-brand">krishi kalyan</h1>
-        <div className="nav-container">
-          <NavLink to="/">Home</NavLink> ||
-          <NavLink to="/FAQS">FAQS</NavLink> ||
-          <NavLink to="/recomendation">Recomendation</NavLink>
-        </div>
-      </nav> */}
-
       <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid">
           <h1 class="navbar-brand">krishi kalyan</h1>
